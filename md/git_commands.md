@@ -2,6 +2,7 @@
 2. git config --global user.emil "email@example.com"
 3. mkdir learngit
 4. cd learngit
+5. la -a //查看当前目录内容
 5. pwd //查看当前目录
 6. git init //初始化仓
 7. git add read.txt //向缓冲区添加文件
@@ -9,6 +10,9 @@
 9. git status //查看状态  
 10. git diff  read.txt //查看修改后与修改前的不同  
 11. git log//查看历史记录  
-12 git log --pretty=oneline//每条记录只占一行  
+12. git log --pretty=oneline//每条记录只占一行  
 13. cd ..\  
+14.  git reset --hard HEAD^//回退上个版本
+15.  cat read.txt //查看文件内容
+16.  
 [more commands](https://www.cnblogs.com/cspku/articles/Git_cmds.html)
